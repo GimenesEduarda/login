@@ -113,6 +113,7 @@ input {
 
 .container.right-panel-active .entar-container { 
     transform: translateX(100%);
+    opacity: 0;
 }
 
 .inscrever-se-container {
@@ -188,6 +189,7 @@ input {
     width: 50%;
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
+    overflow: hidden;
 }
 
 .overlay-left {
